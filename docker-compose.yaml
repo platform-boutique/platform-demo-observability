@@ -281,7 +281,7 @@ services:
   # Payment Service
   # ------------------------------------------------------------
   payment-service:
-    image: mladenovskistefan/payment-service@sha256:696c7d82aa063dad289dabbc25133fec80cecdf9b757521828d94a3545270cb6
+    image: mladenovskistefan/payment-service@sha256:c292f5af4944adbb528e273b9e6822d9890132f56e26301b88bd7c7e27770af4
     container_name: payment-service
     ports:
       - "50052:50051"
