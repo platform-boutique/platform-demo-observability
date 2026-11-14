@@ -216,7 +216,7 @@ services:
   # Cart Service
   # ------------------------------------------------------------
   cart-service:
-    image: mladenovskistefan/cart-service@sha256:f9f5a222b38dc37a40aa51d1ebfb689ad1e492638301594c72982002517fa3ff
+    image: mladenovskistefan/cart-service@sha256:878ad0cf03353ac2f0e8b41edb98443381be561a9a850e7a6e0403e1b0e384ea
     container_name: cart-service
     ports:
       - "7070:7070"   # gRPC
