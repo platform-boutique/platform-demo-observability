@@ -325,7 +325,7 @@ services:
   # Recommendation Service
   # ------------------------------------------------------------
   recommendation-service:
-    image: mladenovskistefan/recommendation-service@sha256:90ea0d4aaad13f6c8087191a7df13c75a55d461e493afe3145c3d9189df1c9f0
+    image: mladenovskistefan/recommendation-service@sha256:2ccac2cddeb4ff3759adbfe96e628379bcadb2fed82f201171ae134de286390f
     container_name: recommendation-service
     ports:
       - "8081:8080"
