@@ -17,9 +17,9 @@ jobs:
     permissions:
       contents: read
       pull-requests: read # gitleaks lists the PR's commits through the API
-    uses: platform-boutique/platform-demo-workflows/.github/workflows/secret-scan.yaml@9e7a60340fa0720de3fdd72147342e9f5abcbbd3 # v3.6.0
+    uses: platform-boutique/platform-demo-workflows/.github/workflows/secret-scan.yaml@a277aeb9226f9b2905cbf9d77626f69bd770f486 # v3.7.0
 
   workflows:
     permissions:
       contents: read
-    uses: platform-boutique/platform-demo-workflows/.github/workflows/workflow-lint.yaml@9e7a60340fa0720de3fdd72147342e9f5abcbbd3 # v3.6.0
+    uses: platform-boutique/platform-demo-workflows/.github/workflows/workflow-lint.yaml@a277aeb9226f9b2905cbf9d77626f69bd770f486 # v3.7.0
